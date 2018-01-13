@@ -11,7 +11,7 @@ layout: default
     <div class="row">
         <div class="col-md-7">
           <a href="/Vizzes/D3_madridtrainbombing.html" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="/Vizzes/D3_madridtrainbombing.jpg" alt="" width=700 height=300>
+            <img class="img-fluid rounded mb-3 mb-md-0" src="/Vizzes/D3_madridtrainbombing.jpg" alt="">
           </a>
         </div>
         <div class="col-md-5">
@@ -22,16 +22,71 @@ layout: default
         </div>
       </div>
 
-<div class="row">
+    <hr>
+    <!-- Project Two -->
+<div class="row">       
+        <div class="col-md-5">
+          <h3><a href="/Vizzes/crimeDC2016_jitter.html" target="_blank"> DC Crime Jitters 2016 </a></h3>
+          <p>Using the data on when and what crimes are commited in District of Columbia 2016, the jitters plot was created. It shows when a crime is more likely to happen by its density. This was interesting because normally one would expect more crimes in the dark, there's more density of crimes in the afternoon. There're more crime around midnight on weekends but it's still less than afternoon. Also, the crimes in DC are mostly theft (of vehicles) and burglary, which could be the reason for afternoon's high densities. </p>
+          <p>Source: <a href="http://opendata.dc.gov/" target="_blank"> OpenData DC.</a> <a href="https://drive.google.com/open?id=1qQVE1-18ywg_WDvPyjUyQs9uIEe9e-2i" target="_blank"> Code and data </a></p>
+          <a class="btn btn-primary" href="/Vizzes/crimeDC2016_jitter.html" target="_blank">View Project</a>
+        </div>
         <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="/Vizzes/D3_madridtrainbombing.jpg" alt="">
+          <a href="/Vizzes/crimeDC2016_jitter.html" target="_blank">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="/Vizzes/jitters.PNG" alt="">
+          </a>
+        </div>
+      </div>
+<hr>
+ 
+     <!-- Project Three  -->
+    <div class="row">
+        <div class="col-md-7">
+          <a href="/Vizzes/Immigration_sankey.html" target="_blank">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="/Vizzes/sankeyImmi.PNG" alt="" width="600" height="300">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project One</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3><a href="/Vizzes/Immigration_sankey.html" target="_blank">Sankey Network of immigration movements between continents</a></h3>
+          <p>This sankey network shows how people move in and out of different continents, with Asia being the continent with most movements and Oceania being the least. All of the continents seem to have the most of immigrants from their own continents. Asia and Africa have more out going people than in coming in total while Europe, America and Oceania have more people migrating into their continent.</p>
+          <p><a href="http://www.un.org/en/development/desa/population/migration/index.shtml" target="_blank">Source </a> and <a href="https://drive.google.com/open?id=11mRl2MGcDVk1VqRB8NL66BT9y8UqLDp1" target="_blank"> clean data and code</a></p>
+          <a class="btn btn-primary" href="/Vizzes/Immigration_sankey.html" target="_blank">View Project</a>
         </div>
       </div>
+    
+    <hr>
+
+      <!-- Project four -->
+      <div class="row">
+        <div class="col-md-5">
+          <h3><a href="https://aeintngon.shinyapps.io/gdpexplored_plotly/" target="_blank">Exploring GDP Using Shiny and Plotly</a></h3>
+          <p>Using the data from world bank, a map and a temporal plot was created to explore the GDP per capita all over the world as of 2016 as well the country of interest from 1960 to 2016. Clicking on each country on the map will cause the time series plot below to change in order to show its GDP per capita from 1960-2016. From the map we can see that the nothern America and Europe is leading in GDP per capita. Many countries also seem to have very volatile GDP per capita over the last 10 years, with US being the only country with a steady growth except for the dip in 2008.(However, the value is measured in US$ which might cause US to look steadier)</p>
+          <p>Source: <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" target="_blank">World Bank.</a> <a href="https://drive.google.com/open?id=12C8VCltisLkCP0T98HMnA8x_nktT8G0_" target="_blank"> Clean data and code</a> </p>
+          <a class="btn btn-primary" href="https://aeintngon.shinyapps.io/gdpexplored_plotly/" target="_blank">View Project</a>
+        </div>
+        <div class="col-md-7">
+          <a href="https://aeintngon.shinyapps.io/gdpexplored_plotly/" target="_blank">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="/Vizzes/GDPplot.png" alt="">
+          </a>
+        </div>
+      </div>
+    <hr>
+      <!-- /.row --> 
+      <!-- /.five --> 
+      <div class="row">
+        <div class="col-md-7">
+          <a href="https://aeintngon.shinyapps.io/movieexplorer/" target="_blank">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="/Vizzes/MovieExplore.PNG" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3><a href="https://aeintngon.shinyapps.io/movieexplorer/" target="_blank">Exploring how movies budget and the sex discrimination in the casts</a></h3>
+          <p>The two plots explored different relationship between movies' budget, genres, ratings and the gender of the casts. The top plot showed how many male casts were used against the female casts, while the bottom plot shows how much a movie budget is and how they spare with critics. This can also be further explored based on different genres. The relationship between budget and voting average seems to follow a normal distribution, which means even the movies with big budget can end up with pretty mediocre reviews. By further delving into each genres, this does not hold for all of them. And there's also an obvious tendency for having more male casts than female casts overall, which seems to be consistent through all genres. </p>
+          <p>Source:<a href="https://www.kaggle.com/tmdb/tmdb-movie-metadata" target="_blank"> this Kaggle repo.</a> <a href="https://drive.google.com/open?id=1utTLgw_v94TUa0CL7qM74rp4qPv2SKe1" target="_blank"> Clean data and Code</a></p>
+          <a class="btn btn-primary" href="https://aeintngon.shinyapps.io/movieexplorer/" target="_blank">View Project</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+<!--don't touch-->
 </div>
