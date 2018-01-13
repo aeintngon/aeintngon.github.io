@@ -1,0 +1,187 @@
+body {
+	background-color: #222930;
+	padding: 50px;
+}
+
+h1 {
+	font-weight:bold;
+	color:#E9E9E9;
+}
+
+h2 {
+	color: #4EB1BA;	
+}
+
+a {
+	color:inherit;
+}
+
+a:hover {
+	color:inherit;
+	text-decoration:inherit;
+}
+
+.link {
+	color: #A6E7ED;
+}
+
+.link:hover {
+	color:#E9E9E9;
+	text-decoration:none; 
+    	cursor:pointer; 
+}
+
+.post-content {
+	color: #E9E9E9;
+	padding:10px 30px 10px 30px;
+}
+
+.post-date{
+	color:#C3DEE0;
+}
+
+#top-line {
+	color: #76323F;
+	background-color: #76323F;
+	height: 2px;
+	border: 0;
+	margin-bottom: 12px;
+}
+
+.recent-project li{
+	margin-bottom:12px;
+}
+
+ul {
+	list-style: none;
+}
+
+.header-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header-list li {
+    float: left;
+}
+
+.header-list li a {
+    display: block;
+    font-weight: bold;
+    color: #E9E9E9;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.header-list li a:hover {
+    background-color: #4EB1BA;
+}
+
+.content {
+	font-size:115%;
+	text-align:left;
+	padding:10px 30px 10px 30px;
+	color:#E9E9E9;
+}
+
+.project-title {
+	text-align:left;
+	padding:10px 70px 10px 70px;
+	color:#E9E9E9;
+	font-size:125%;
+}
+
+.footer-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-nav li {
+    float: center;
+}
+
+.footer-nav li a {
+    display: block;
+    font-weight: bold;
+    color: #E9E9E9;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar-nav .navbar .navbar-collapse {
+    padding-bottom: 30px;
+    max-height: none;
+    background-color: #222930;
+}
+.sidebar-nav .navbar ul {
+    float: none;
+	background-color: #222930;
+}
+.sidebar-nav .navbar ul:not {
+    display: block;
+	background-color: #222930;
+}
+.sidebar-nav .navbar li {
+    float: none;
+    display: block;
+    color:#E9E9E9;
+}
+.sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.footer {
+	text-align: center;
+	padding: 3px 0;
+	margin-top: 0px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+#gmail {
+	color: #FF0101
+}
+
+#linkedin {
+	color: #007bb6
+}
+
+#twitter {
+	color: #00aced
+}
+
+#instagram {
+	color: #bc2a8d
+}
+
+#pdf {
+	color: #A735FD
+}
+
+#github {
+	color: #000000
+}
+
+.graph-title {
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+	margin: 0px;
+}
+
+.graph-subtitle {
+	text-align:center;
+	margin:0px;
+	font-size: 14px;
+	line-height:14px;
+}
