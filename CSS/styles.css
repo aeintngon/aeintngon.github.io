@@ -86,11 +86,10 @@ a:hover {
 }
 
 #top-line {
-	color: #76323F;
-	background-color: #76323F;
 	height: 2px;
 	border: 0;
 	margin-bottom: 12px;
+	width:100%;
 }
 
 .recent-project li{
