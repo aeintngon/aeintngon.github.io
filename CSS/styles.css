@@ -21,7 +21,7 @@ img {
     padding: 0;
     overflow: hidden;
     background-color: #2E9CCA;
-
+    position: sticky;
 }
 .header-list ul {
      list-style-type: none;
