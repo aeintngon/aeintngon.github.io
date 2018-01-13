@@ -61,6 +61,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #222930;
+
 }
 
 .header-list ul {
@@ -68,7 +70,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #222930;
 }
 
 .header-list li {
