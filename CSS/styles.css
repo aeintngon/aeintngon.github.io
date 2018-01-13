@@ -1,5 +1,5 @@
 body {
-	background-color: #222930;
+	background-color: #25274D;
 	padding: 15px;
 }
 
@@ -79,14 +79,14 @@ ul {
 .header-list li a {
     display: block;
     font-weight: bold;
-    color: #222930;
+    color: #2E9CCA;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .header-list li a:hover {
-    background-color: #4EB1BA;
+    background-color: #29648A;
 }
 
 .content {
