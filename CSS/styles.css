@@ -70,6 +70,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #2E9CCA;
 }
 
 .header-list li {
@@ -79,7 +80,7 @@ ul {
 .header-list li a {
     display: block;
     font-weight: bold;
-    color: #2E9CCA;
+    color: #F8F8FF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
