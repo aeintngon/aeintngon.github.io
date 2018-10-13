@@ -14,6 +14,20 @@ img {
 	color:#F8F8FF;
 }
 
+.commonHeader {
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header#about{
+    background-image: url(../Images/About_coverImg.JPG);
+}
+
 
 .header-list {
     list-style: none;
