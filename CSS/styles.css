@@ -101,6 +101,11 @@ h2 {
   padding:10px 10px 10px 10px;
 }
 
+.content {
+      padding: 50px 15%;
+}
+
+
 #about .content{
     font-size:115%;
       padding: 25px 20%;
