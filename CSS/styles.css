@@ -1,6 +1,5 @@
 
 body, html {
-  padding: 0px 5px 0px 5px
     height: 100%;
     width: 100%;
 }
@@ -12,6 +11,10 @@ body, html {
     color: white;
 }
 
+img{
+    pointer-events: none;
+
+}
 .profilePic {
   object-fit: cover;
   filter: blur(2px);
