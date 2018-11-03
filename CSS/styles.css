@@ -1,14 +1,11 @@
 
-html {
+body, html {
+  padding: 0px 5px 0px 5px
     height: 100%;
     width: 100%;
 }
 
-body{
-      padding: 25px;
-    height: 100%;
-    width: 100%;
-}
+
 .headerContainer {
     position: relative;
     text-align: center;
