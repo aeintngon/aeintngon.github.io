@@ -102,12 +102,13 @@ h2 {
 }
 
 .content {
+    font-size: 130%;
       padding: 50px 15%;
 }
 
 
 #about .content{
-    font-size:115%;
+    font-size:130%;
       padding: 25px 20%;
   }
 
