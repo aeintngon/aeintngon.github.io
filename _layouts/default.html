@@ -1,33 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title> Aeint Thet Ngon</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/custom/navbar-top-fixed.css">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
-    <link href="css/4-col-portfolio.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/CSS/styles.css">	
-  <link rel="stylesheet" href="/CSS/about.css">	
-	<link rel="stylesheet" href="/CSS/portfolio.css">	
+  <script src="sidenav.js"></script>
 </head>
-<body>  
- 
-<div class="header-list">
-    <ul>
-        <li><a href="https://aeintngon.github.io/"><b>Aeint Thet Ngon</b></a></li>
-         <li><a href="https://aeintngon.github.io/">Home</a></li>
-         <li><a href="https://aeintngon.github.io/VizPortfolio.html">Viz Portfolio</a></li>
-         <li><a href="#contact">Contact</a></li>
-         <li><a href="http://aeintngon.georgetown.domains/Aeint Ngon's resume_domain.pdf" target="_blank">Resume</a></li>
-     </ul>
-     </div>
+<body>
+  <!Header section>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Aeint Thet Ngon</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <div class='content row'>
   <br>
@@ -39,28 +54,22 @@
 <hr id='bottom-line'>
 
 <footer class="footer" id="contact">
-	<div class="inner-footer", align="center">
-		<div style="color:#F8F8FF">
-		<h3> Contact</h3>
-		<p>I'm available for hire.</p>
-		<p>Please feel free to contact me.</p>
-		</div>
-		<ul class="footer-nav">
-			<li><a id="gmail" href="mailto:an692@georgetown.edu" target="_blank"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a></li>
-			<li><a id="linkedin" href="https://www.linkedin.com/in/Aeintngon/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+  <div class="inner-footer", align="center">
+    <div style="color:#F8F8FF">
+    <h3> Contact</h3>
+    </div>
+    <ul id="footer-nav">
+      <li><a id="gmail" href="mailto:an692@georgetown.edu" target="_blank"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a></li>
+      <li><a id="linkedin" href="https://www.linkedin.com/in/Aeintngon/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
 </li>
-			<li><a id="github" href="https://github.com/aeintngon" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+      <li><a id="github" href="https://github.com/aeintngon" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
 </li>
-			<li><a id="twitter" href="https://twitter.com/aeintngon" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+      <li><a id="twitter" href="https://twitter.com/aeintngon" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
 </li>
-			<li><a id="pdf" href="/Images/Aeint Ngon's resume_domain.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i></a>
+      <li><a id="pdf" href="/Images/Aeint Ngon's resume_domain.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i></a>
 </li>
-		</ul>
-	</div>
+    </ul>
+  </div>
 </footer>
-    
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	
 </body>
-</html>
+</html> 
