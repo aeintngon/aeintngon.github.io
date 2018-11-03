@@ -89,7 +89,7 @@ img{
 }
 
 
-.content {
+h2 {
   font-size:115%;
   text-align:left;
   padding:10px 10px 10px 10px;
@@ -177,7 +177,7 @@ ul#footer-nav li {
       background-color: #fff;
       color: #000;
   }
-  
+
   .nav-tabs li a {
       color: #777;
   }
