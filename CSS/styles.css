@@ -95,15 +95,15 @@ body {
   }
 
 
-.content {
+#projects .content {
     font-size: 130%;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 
 #about .content{
     font-size:130%;
-      padding: 25px 20%;
+    padding: 25px 20%;
   }
 
 ul#footer-nav{
