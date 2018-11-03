@@ -94,6 +94,9 @@ body {
       color: #777;
   }
 
+.content{
+  padding: 2px;
+}
 
 #projects .content {
     font-size: 130%;
