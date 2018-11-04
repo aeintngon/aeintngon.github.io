@@ -79,10 +79,7 @@ img{
 	float:right;
 }
 
-body {
-      font: 400 15px/1.8 Lato, sans-serif;
-      color: #777;
-  }
+
 
 .content{
   margin-top: 0;
@@ -118,7 +115,7 @@ ul#footer-nav li {
     text-decoration: none;
 }
 
-  h2, h3 {
+  h2, h3   {
       margin: 10px 0 30px 0;
       letter-spacing: 10px;      
       font-size: 20px;
