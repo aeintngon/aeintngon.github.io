@@ -81,7 +81,7 @@ img{
 
 body {
       font-size: 400 15px/1.8 Lato, sans-serif;
-      color: #777;
+      color: #111;
   }
 
 .content{
@@ -199,13 +199,13 @@ ul#footer-nav li {
       opacity: 0.9;
   }
   .navbar li a, .navbar .navbar-brand { 
-      color: #d5d5d5 !important;
+      color: #858585 !important;
   }
   .navbar-nav li a:hover {
-      color: #fff !important;
+      color: #d5d5d5 !important;
   }
   .navbar-nav li.active a {
-      color: #fff !important;
+      color: #d5d5d5 !important;
       background-color: #29292c !important;
   }
   .navbar-default .navbar-toggle {
