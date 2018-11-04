@@ -4,7 +4,6 @@ body, html {
     width: 100%;
 }
 
-
 .headerContainer {
     position: relative;
     text-align: center;
@@ -29,24 +28,20 @@ img{
     transform: translate(-50%, -50%);
 }
 
-.navbar-nav {
-      font-family: Montserrat, sans-serif;
-      margin-bottom: 0;
-      border: 0;
-      letter-spacing: 4px;
-      opacity: 0.9;
-  }
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+}
 
-  .navbar li a, .navbar .navbar-brand { 
-      color: #d5d5d5 !important;
-  }
-  .navbar-nav li a:hover {
-      color: #fff !important;
-  }
-
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-  }
+.navbar{
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  font-size: 15px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
 
 .header-list {
     list-style: none;
