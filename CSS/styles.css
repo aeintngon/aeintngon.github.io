@@ -38,46 +38,11 @@ img{
 .navbar{
 	font-family: Montserrat, sans-serif;
 	margin-bottom: 0;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
 
-.header-list {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		position: sticky;
-
-}
-
-.header-list ul {
-		 list-style-type: none;
-		 margin: 0;
-		 padding: 0;
-		 overflow: hidden;
- }
- 
- .header-list li {
-		 float: left;
- }
-
-.header-list li a {
-		display: block;
-		font-weight: bold;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-}
-
-.header-list li a:hover {
-		background-color: #29648A;
-}
-
-.header-list-right{
-	float:right;
-}
 
 body {
 			font-size: 400 20px/1.8 Lato, sans-serif;
