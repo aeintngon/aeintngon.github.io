@@ -35,15 +35,6 @@ img{
 	border: 1px solid transparent;
 }
 
-.navbar{
-	font-family: Montserrat, sans-serif;
-	margin-bottom: 0;
-	font-size: 20px !important;
-	letter-spacing: 4px;
-	opacity: 0.9;
-}
-
-
 body {
 			font-size: 400 20px/1.8 Lato, sans-serif;
 			color: #111;
@@ -54,18 +45,18 @@ body {
 }
 
 #projects .content {
-		font-size: 130%;
+		font-size: 150%;
 		padding-top: 25px 15%;
 }
 
 
 #about .content{
-		font-size:130%;
+		font-size:150%;
 		padding: 25px 20%;
 }
 
 #prev_work .content{
-		font-size:130%;
+		font-size:150%;
 		padding: 25px 20%;
 }
 
@@ -171,7 +162,7 @@ ul#footer-nav li {
 			margin-bottom: 0;
 			background-color: #2d2d30;
 			border: 0;
-			font-size: 11px !important;
+			font-size: 18px !important;
 			letter-spacing: 4px;
 			opacity: 0.9;
 	}
