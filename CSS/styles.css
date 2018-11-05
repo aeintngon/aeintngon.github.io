@@ -97,7 +97,13 @@ body {
 #about .content{
     font-size:130%;
     padding: 25px 20%;
-  }
+}
+
+#prev_work .content{
+    font-size:130%;
+    padding: 25px 20%;
+}
+
 
 ul#footer-nav{
   padding:15px;
