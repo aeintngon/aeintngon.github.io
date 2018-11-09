@@ -166,6 +166,17 @@ ul#footer-nav li {
 			letter-spacing: 4px;
 			opacity: 0.9;
 	}
+
+#navbarNav ul{
+			font-family: Montserrat, sans-serif;
+			margin-bottom: 0;
+			background-color: #2d2d30;
+			border: 0;
+			font-size: 14px !important;
+			letter-spacing: 1px;
+			opacity: 0.9;
+
+}
 	.navbar li a, .navbar .navbar-brand { 
 			color: #858585 !important;
 	}
