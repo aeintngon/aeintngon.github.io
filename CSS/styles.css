@@ -160,7 +160,7 @@ ul#footer-nav li {
 	.navbar {
 			font-family: Montserrat, sans-serif;
 			margin-bottom: 0;
-			border: 0;
+				border: 0;
 			font-size: 18px !important;
 			letter-spacing: 4px;
 			opacity: 0.9;
