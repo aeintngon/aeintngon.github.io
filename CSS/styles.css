@@ -49,6 +49,11 @@ body {
 		padding-top: 25px 15%;
 }
 
+#viz .row {
+		font-size: 150%;
+		padding-left: 25px 15%;
+		padding-right: 25px 15%;	
+}
 
 #about .content{
 		font-size:150%;
